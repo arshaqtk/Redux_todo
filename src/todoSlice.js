@@ -2,8 +2,8 @@ import { createSlice } from "@reduxjs/toolkit";
 
 
 const initialState = [
-  { id: 1, text: "Learn Redux Toolkit", completed: false },
-  { id: 2, text: "Build a Todo App", completed: true },
+  { id: 1, text: "Learn Redux", completed: false },
+  { id: 2, text: "Learn React", completed: true },
 ];
 const todoSlice=createSlice({
     name:"todos",
